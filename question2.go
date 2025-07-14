@@ -2,14 +2,14 @@ package main
 
 import (
 	"context"
-	"fmt"
-	"log"
-
-	"github.com/redis/go-redis/v9"
 )
 
 var ctx = context.Background()
 
 func main() {
-	
+	user := map[string]string{
+		"realname": "Aberto Doni Sianturi",
+		"email":    "adss@gmail.com",
+		"password": "f7c3bc1d808e0...441",
+	}
 }
